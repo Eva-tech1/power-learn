@@ -17,7 +17,7 @@ void main() {
  num sum =num1 + num2 + num3 + num4;
 
  //Creating a map with String keys and int values
- Map<String ,int> ages = { "Alice": 20, "Bob": 19, "John":30};
+ Map<String ,int> ages = {"Alice": 20, "Bob": 19, "John":30};
  
  //define a string with runes
  String runesString = "Runes in Dart: \u{1F600} \u{1F64B} \u{1F680}";
