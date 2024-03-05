@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMS IN HTML</title>
+</head>
+<body>
+  <form action="data.php" method="get" enctype="multipart/form-data">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" placeholder="Jane Doe" required>
+<br><br>
+<label for="date of birth">Date Of Birth:</label>
+<input type="text" id="date of birth" name="date of birth" placeholder="31/12/1900" required>
+<br><br>
+<label for="address">Address:</label>
+<input type="address" id="address" name="address" placeholder="P.O Box">
+<br><br>
+
+<label for="email">Email Address:</label>
+<input type="email" id="email" name="email" placeholder="me@gmail.com"required>
+<br><br>
+<label for="phone no">Phone No:</label>
+<input type="tel" id="phone no" name="phone no" placeholder="0700000000" required>
+<br><hr>
+<label>COURSES I AM INTERESTED IN</label>
+<br>
+<input type="checkbox" id="interest" name="Cyber Security" value="interest">
+<label>Cyber Security</label>
+<br>
+<input type="checkbox" id="interest" name="Data Science" value="interest">
+<label>Data Science</label>
+<br>
+<input type="checkbox" id="interest" name="Software Engineering" value="interest">
+<label>Software Engineering</label>
+<br>
+<input type="checkbox" id="interest" name="Mobile App Developer" value="interest">
+<label>Mobile App Developer</label>
+<br><br><br>
+<textarea id="bio" name="Tell us more about yourself."rows="15" cols="50"></textarea>
+<label for="bio"> Tell us more about yourself.</label><br>
+<fieldset>
+  <legend>Mode of learning</legend>
+  <label for="online"> Online</label>
+  <input type="radio" id="online" name="learning" value="online">
+  <br>
+  <label for="online">Physical</label>
+  <input type="radio" id="physical" name="learning" value="physical">
+</fieldset>
+</textarea>
+<br><br>
+<label for="password">Pass Word:</label>
+<input type="password" id="password" name="password" placeholder="Enter your Password" aria-label="password" aria-describedby="password-hint">
+<br><br>
+<div id="password-hint" >Password must be atleast 9 characters long</div>
+<br>
+<label for="password"> Confirm:</label>
+<input type="text" id="password" name="password" placeholder="Confirm your Password"><br><br>
+<input type="button" value="Register">
+<input type="button" value="Cancel">
+  </form>
+</body>
+</html
