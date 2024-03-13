@@ -1,0 +1,70 @@
+header {
+  background-color: rgb(175, 227, 175);
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 100px;
+  border: none;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: darkslategray;
+}
+
+.intro {
+background-color: plum;
+text-align: center;
+margin: 20px 0;
+border-radius: 20px;
+padding-bottom: 30px;
+padding-top: 30px;
+}
+body{
+  background-color: rgb(231, 220, 220);
+  padding-bottom: 500px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.skills{
+  padding: 10px;
+  margin: 20px 0;
+}
+.skills ul{
+   list-style-type: none;  /* remove default list style*/
+  padding: 0;
+  margin: 0;
+}
+.skills li{
+border: 1px solid #ccc;
+padding: 10px;
+margin:10px 0;
+cursor: pointer;
+}
+footer{
+  text-align: center;
+  margin-top: 100px;
+  color: rgb(59, 57, 57);
+  background-color: floralwhite;
+  padding: 20px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+footer :hover{
+  background-color: whitesmoke;
+  opacity: 0.7;
+}
+/* responsive design */
+@media (max-width:680px) {
+  /* adjust margin and padding for smaller screen */
+  header, .intro, .skills, footer{
+    padding: 10px;
+  }
+  .skills li{
+    margin: 3px 0;
+  }
+}
